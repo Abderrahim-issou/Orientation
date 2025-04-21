@@ -123,7 +123,7 @@ app.use('/auth', authRoute)
 
 //   res.status(201).send('Success ✅')
 // });
-app.use('/',diagnosticRoute)
+app.use('/diagnostics',diagnosticRoute)
 app.use('/',CareerRoute)
 app.use('/api/auth', authRoute);
 app.use('/api/schools', schoolRoutes);

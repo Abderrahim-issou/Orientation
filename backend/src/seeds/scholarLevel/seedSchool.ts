@@ -5,25 +5,23 @@ import { EDiplomaLevels, EEstablishmentType, ESchoolType } from '../../types/sch
 
 const seedSchool = async () => {
   try {
-<<<<<<< HEAD
-    const schoolsToInsert = schools.map((item: any) => ({
-      title: item.title,
-      website: item.website,
-      cities: item.cities,
-      schoolType: item.schoolType as ESchoolType,
-      establishmentType: item.establishmentType as EEstablishmentType,
-      fields: item.fields,
-      diplomaLevels: item.diplomaLevels.map((level: string) => level as EDiplomaLevels),
-      requirements: item.requirements,
-      admission: item.admission,
-      concours: item.concours,
-      isBoardingAvailable: item.isBoardingAvailable,
-      isScholarshipAvailable: item.isScholarshipAvailable,
-      internationalPrograms: item.internationalPrograms,
-      requiredHighSchoolBranche: item.requiredHighSchoolBranche,
-      requiredHighSchoolFiliere: item.requiredHighSchoolFiliere,
-    }));
-=======
+    // const schoolsToInsert = schools.map((item: any) => ({
+    //   title: item.title,
+    //   website: item.website,
+    //   cities: item.cities,
+    //   schoolType: item.schoolType as ESchoolType,
+    //   establishmentType: item.establishmentType as EEstablishmentType,
+    //   fields: item.fields,
+    //   diplomaLevels: item.diplomaLevels.map((level: string) => level as EDiplomaLevels),
+    //   requirements: item.requirements,
+    //   admission: item.admission,
+    //   concours: item.concours,
+    //   isBoardingAvailable: item.isBoardingAvailable,
+    //   isScholarshipAvailable: item.isScholarshipAvailable,
+    //   internationalPrograms: item.internationalPrograms,
+    //   requiredHighSchoolBranche: item.requiredHighSchoolBranche,
+    //   requiredHighSchoolFiliere: item.requiredHighSchoolFiliere,
+    // }));
     // Get all valid filiere titles
     const validFilieres = filieres.map((f) => f.title);
 
@@ -56,7 +54,6 @@ const seedSchool = async () => {
         internationalPrograms: item.internationalPrograms,
       };
     });
->>>>>>> 856d412f1afbcfc5a5f7f22887e97c2f6f1aac75
 
     await School.insertMany(schoolsToInsert);
     console.log('Schools seeded successfully');

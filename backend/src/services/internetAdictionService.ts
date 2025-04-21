@@ -9,7 +9,7 @@ function calculateInternetAddictionResult(data: IData): TraitResult {
 
   let desc = '';
 
-  if (axisScores >= 27 && axisScores <= 48) desc = 'غائبة';
+  if (axisScores >= 0 && axisScores <= 48) desc = 'غائبة';
   else if (axisScores >= 49 && axisScores <= 69) desc = 'خفيفة';
   else if (axisScores >= 70 && axisScores <= 90) desc = 'متوسطة';
   else if (axisScores >= 91 && axisScores <= 111) desc = 'مرتفعة';

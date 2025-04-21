@@ -6,29 +6,28 @@ interface TraitResult {
     desc: string;
 }
 
-function calculatePressionResult(data: IData): TraitResult[] {
+function calculatePressionResult(data: IData): TraitResult {
     const axisScores = data.answers.reduce((acc, curr) => {
-        const key = curr.axis;
-        acc[key] = (acc[key] || 0) + curr.answers;
+        acc += curr.answers;
         return acc;
-    }, {} as Record<string, number>);
+    }, 0 as number);
 
-    return Object.entries(axisScores).map(([axis, score]) => {
+    
         let desc = '';
-
-        if (score >= 28 && score <= 39) desc = 'غائبة';
-        else if (score >= 40 && score <= 50) desc = 'خفيفة';
-        else if (score >= 51 && score <= 61) desc = 'متوسطة';
-        else if (score >= 61 && score <= 72) desc = 'مرتفعة ';
-        else if (score >= 73 && score <= 84) desc = 'حادة  ';
+        if (axisScores <= 27) desc = 'غائبة';
+        else if (axisScores >= 28 && axisScores <= 39) desc = 'غائبة';
+        else if (axisScores >= 40 && axisScores <= 50) desc = 'خفيفة';
+        else if (axisScores >= 51 && axisScores <= 61) desc = 'متوسطة';
+        else if (axisScores >= 61 && axisScores <= 72) desc = 'مرتفعة ';
+        else if (axisScores >= 73 && axisScores <= 84) desc = 'حادة  ';
         else desc = 'غير معروفة';
 
         return {
-            type: axis,
-            score,
+            type: 'قياس الضغوط النفسيةالتيتواجهتالميذ الثانوي التأهيلي',
+            score: axisScores,
             desc,
         };
-    });
+
 }
 
 export default calculatePressionResult;

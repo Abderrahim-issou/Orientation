@@ -8,9 +8,9 @@ import { IData, TraitResult } from "../types/diagnostiqueTypes";
 
 export const calculateExamscore = (data: IData):TraitResult => {
     const score = data.answers.reduce((accu, i) => { return accu + i.answers }, 0)
-    var result;
+    var result: {score: number, desc: string };
     switch (true) {
-        case (score >= 38 && score <= 61):
+        case (score >= 0 && score <= 61):
             result = {score, desc: "Not Happen" };
             break;
         case (score >= 62 && score <= 107):
@@ -25,5 +25,5 @@ export const calculateExamscore = (data: IData):TraitResult => {
         default:
             result = {score: 0, desc: "Not Precised" };
     }
-    return {...result,type:"درجة قلق الامتحان"};
+    return {...result, type:"درجة قلق الامتحان"};
 }
