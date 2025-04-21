@@ -1,32 +1,31 @@
-import riasecData from '../../data/diagnostiques/riasecData.json';
-import { Diagnostique } from '../../models/diagnostiqueModel';
-import { IQuestionSchema, Question } from '../../models/questionModel';
+import riasecData from "../../data/diagnostiques/riasecData.json";
+import { Diagnostique } from "../../models/diagnostiqueModel";
+import { IQuestionSchema, Question } from "../../models/questionModel";
+import { DiagnostiqueName } from "../../types/diagnostiqueTypes";
 
 const seedRIASEC = async () => {
   try {
-    const diagnostiqueId = '67f903195ec716ac107c4154'; // Make sure this ID exists in your Diagnostique collection
+    const diag = await Diagnostique.findOne({
+      diagnostique: DiagnostiqueName.RAISEC,
+    });
 
-    // Check if the diagnostique exists
-    const diagnostique = await Diagnostique.findById(diagnostiqueId);
-    if (!diagnostique) {
-      console.error('❌ Diagnostique not found with given ID');
-      return;
-    }
-
-    if (diagnostique.diagnostiqueName !== 'RIASEC') {
-      console.error('❌ Diagnostique is not RIASEC');
+    if (diag.diagnostique !== DiagnostiqueName.RAISEC) {
+      console.error("❌ Diagnostique is not RIASEC");
       return;
     }
 
     // Remove existing questions if needed (optional)
-    await Question.deleteMany({ diagnostique: diagnostiqueId });
+    await Question.deleteMany({ diagnostique: diag._id });
 
     const questionDocs = riasecData.map(
       (
-        item: Pick<IQuestionSchema, 'name' | 'diagnostique' | 'question' | 'chaine' | 'options'>
+        item: Pick<
+          IQuestionSchema,
+          "name" | "diagnostique" | "question" | "chaine" | "options"
+        >
       ) => ({
         name: item.name,
-        diagnostique: diagnostiqueId,
+        diagnostique: diag._id,
         question: item.question,
         chaine: item.chaine, // corrected: use axis for RIASEC
         options: item.options,
@@ -34,9 +33,11 @@ const seedRIASEC = async () => {
     );
 
     await Question.insertMany(questionDocs);
-    console.log(`✅ Seeded ${questionDocs.length} RIASEC questions successfully.`);
+    console.log(
+      `✅ Seeded ${questionDocs.length} RIASEC questions successfully.`
+    );
   } catch (error) {
-    console.error('❌ Error seeding RIASEC questions:', error);
+    console.error("❌ Error seeding RIASEC questions:", error);
   }
 };
 

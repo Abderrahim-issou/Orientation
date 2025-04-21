@@ -1,10 +1,10 @@
-import { model, Schema, Document } from 'mongoose';
-import { IDiagnostique } from '../types/diagnostiqueTypes';
+import { model, Schema, Document } from "mongoose";
+import { IDiagnostique } from "../types/diagnostiqueTypes";
 
 interface IDiagnostiqueSchema extends IDiagnostique, Document {}
 
 const diagnostiqueSchema = new Schema<IDiagnostiqueSchema>({
-  diagnostiqueName: {
+  diagnostique: {
     type: String,
     required: true,
     unique: true,
@@ -19,6 +19,9 @@ const diagnostiqueSchema = new Schema<IDiagnostiqueSchema>({
   },
 });
 
-const Diagnostique = model<IDiagnostiqueSchema>('Diagnostique', diagnostiqueSchema);
+const Diagnostique = model<IDiagnostiqueSchema>(
+  "Diagnostique",
+  diagnostiqueSchema
+);
 
 export { IDiagnostiqueSchema, Diagnostique };

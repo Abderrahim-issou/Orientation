@@ -12,6 +12,7 @@ import seedFiliere from "../seeds/scholarLevel/seedFiliere";
 import seedBranch from "../seeds/scholarLevel/seedBranch";
 import seedSchool from "../seeds/scholarLevel/seedSchool";
 import dotenv from "dotenv";
+import seedDIAGNOSTIC from "../seeds/diagnostiques/seedDIAGNOSTIC";
 dotenv.config();
 
 const connectDB = async () => {
@@ -22,7 +23,8 @@ const connectDB = async () => {
 
     // --Diagnostiques--
 
-    // await seedRIASEC();
+    // await seedDIAGNOSTIC();
+    await seedRIASEC();
     // await seedOCEAN();
     // await seedDEPRESSION();
     // await seedSTRESS();

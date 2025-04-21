@@ -1,5 +1,5 @@
 export interface IDiagnostique {
-  diagnostiqueName: DiagnostiqueName;
+  diagnostique: DiagnostiqueName;
   description: string;
   objectif: string;
 }
@@ -26,5 +26,5 @@ export enum DiagnostiqueName {
   DEPRESSION = "DÉPRESSION",
   ESTIME_DE_SOI = "ESTIME DE SOI",
   DEPENDANCE_INTERNET = "DÉPENDANCE À INTERNET",
-  PRESSION_PSYCHOLOGIQUE = "PRESSION PSYCHOLOGIQUE"
+  PRESSION_PSYCHOLOGIQUE = "PRESSION PSYCHOLOGIQUE",
 }
