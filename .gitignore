@@ -13,8 +13,10 @@ frontend/.env
 frontend/.env.*.local
 backend/.env
 backend/.env.*.local
+
 backend/app.log
 backend/Dockerfile
+
 
 # Logs
 *.log
