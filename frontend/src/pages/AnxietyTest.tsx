@@ -11,93 +11,53 @@ import MainLayout from "@/layouts/MainLayout";
 // Questions fictives pour le test d'anxiété
 const anxietyQuestions = [
   {
-    name: "Q1",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "نومي مضطرب ومتقطع.",
+    id: "q1",
+    question: "Je me sens nerveux(se), anxieux(se) ou sur les nerfs.",
     options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
+      { value: "0", label: "Jamais" },
+      { value: "1", label: "Quelques jours" },
+      { value: "2", label: "Plus de la moitié du temps" },
+      { value: "3", label: "Presque tous les jours" }
     ]
   },
   {
-    name: "Q2",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "مخاوفي كبيرة جدا بالقابلة بأصدقائي.",
+    id: "q2",
+    question: "Je suis incapable d'arrêter de m'inquiéter ou de contrôler mes inquiétudes.",
     options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
+      { value: "0", label: "Jamais" },
+      { value: "1", label: "Quelques jours" },
+      { value: "2", label: "Plus de la moitié du temps" },
+      { value: "3", label: "Presque tous les jours" }
     ]
   },
   {
-    name: "Q3",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "تمر علي أبام لا أنم بسبب القلق.",
+    id: "q3",
+    question: "Je m'inquiète trop à propos de différentes choses.",
     options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
+      { value: "0", label: "Jamais" },
+      { value: "1", label: "Quelques jours" },
+      { value: "2", label: "Plus de la moitié du temps" },
+      { value: "3", label: "Presque tous les jours" }
     ]
   },
   {
-    name: "Q4",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "أمتقد أنني أكثر عصيلة من الأخرين.",
+    id: "q4",
+    question: "J'ai du mal à me détendre.",
     options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
+      { value: "0", label: "Jamais" },
+      { value: "1", label: "Quelques jours" },
+      { value: "2", label: "Plus de la moitié du temps" },
+      { value: "3", label: "Presque tous les jours" }
     ]
   },
   {
-    name: "Q5",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "أعاني كل مدة البل بن كوابيس بزجمة.",
+    id: "q5",
+    question: "Je suis si agité(e) qu'il est difficile de rester tranquille.",
     options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
-    ]
-  },
-  {
-    name: "Q6",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "أعاني من الأمور بلغدة في كثير من الأحيان.",
-    options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
-    ]
-  },
-  {
-    name: "Q7",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "طالبا ما الحمل أن يدأو بتشملن مساء اليوم في حمل.",
-    options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
-    ]
-  },
-  {
-    name: "Q8",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "أعاني كبيرًا من الأسبال.",
-    options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
-    ]
-  },
-  {
-    name: "Q9",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "أضمر بالراحة أثناء التفكير في أمور العمل والبال(م).",
-    options: [
-      { value: 0, text: "نعم" },
-      { value: 1, text: "لا" }
-    ]
-  },
-  {
-    name: "Q10",
-    diagnostique: "67f92069952adef0016ae3f4",
-    question: "سيبوي نورات من العامل.",
-    options: [
-      { value: 1, text: "نعم" },
-      { value: 0, text: "لا" }
+      { value: "0", label: "Jamais" },
+      { value: "1", label: "Quelques jours" },
+      { value: "2", label: "Plus de la moitié du temps" },
+      { value: "3", label: "Presque tous les jours" }
     ]
   }
 ];
@@ -112,7 +72,7 @@ const AnxietyTest: React.FC = () => {
   const handleAnswerChange = (value: string) => {
     setAnswers({
       ...answers,
-      [currentQuestion.name]: value
+      [currentQuestion.id]: value
     });
   };
   
@@ -137,7 +97,7 @@ const AnxietyTest: React.FC = () => {
   };
   
   const isLastQuestion = currentQuestionIndex === anxietyQuestions.length - 1;
-  const isAnswered = answers[currentQuestion.name] !== undefined;
+  const isAnswered = answers[currentQuestion.id] !== undefined;
   const progressPercentage = ((currentQuestionIndex + 1) / anxietyQuestions.length) * 100;
   
   return (
@@ -164,15 +124,15 @@ const AnxietyTest: React.FC = () => {
               <div className="space-y-4">
                 <h3 className="text-lg font-medium">{currentQuestion.question}</h3>
                 <RadioGroup 
-                  value={answers[currentQuestion.name]} 
+                  value={answers[currentQuestion.id]} 
                   onValueChange={handleAnswerChange}
                 >
                   <div className="space-y-3">
                     {currentQuestion.options.map((option) => (
-                      <div key={option.value.toString()} className="flex items-center space-x-2 border p-3 rounded-md hover:bg-gray-50">
-                        <RadioGroupItem value={option.value.toString()} id={`${currentQuestion.name}-${option.value.toString()}`} />
-                        <Label htmlFor={`${currentQuestion.name}-${option.value.toString()}`} className="flex-grow cursor-pointer">
-                          {option.text}
+                      <div key={option.value} className="flex items-center space-x-2 border p-3 rounded-md hover:bg-gray-50">
+                        <RadioGroupItem value={option.value} id={`${currentQuestion.id}-${option.value}`} />
+                        <Label htmlFor={`${currentQuestion.id}-${option.value}`} className="flex-grow cursor-pointer">
+                          {option.label}
                         </Label>
                       </div>
                     ))}
