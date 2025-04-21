@@ -1,7 +1,0 @@
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ocean/questions\",\"status\":\"404\",\"responseTime\":\"79.460\"}","timestamp":"2025-04-21T01:23:02.135Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ocean/questions\",\"status\":\"404\",\"responseTime\":\"36.580\"}","timestamp":"2025-04-21T01:51:25.427Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/OCEAN/questions\",\"status\":\"200\",\"responseTime\":\"60.170\"}","timestamp":"2025-04-21T01:51:42.746Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/OCEAN/questions\",\"status\":\"200\",\"responseTime\":\"68.297\"}","timestamp":"2025-04-21T01:55:55.422Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/OCEAN/questions\",\"status\":\"500\",\"responseTime\":\"40.488\"}","timestamp":"2025-04-21T01:57:38.815Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/OCEAN/questions\",\"status\":\"500\",\"responseTime\":\"34.010\"}","timestamp":"2025-04-21T01:59:14.510Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/OCEAN/questions\",\"status\":\"500\",\"responseTime\":\"38.565\"}","timestamp":"2025-04-21T02:00:36.337Z"}
