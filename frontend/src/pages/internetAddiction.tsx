@@ -378,7 +378,7 @@ const InternetAddiction: React.FC = () => {
     <MainLayout>
       <div className="container py-10">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-2xl font-bold mb-6">Test d'Anxiété</h1>
+          <h1 className="text-2xl font-bold mb-6">Test d'addiction à internet</h1>
           
           <div className="mb-6 bg-gray-200 h-2 rounded-full">
             <div 
