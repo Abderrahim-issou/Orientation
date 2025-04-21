@@ -1,40 +1,50 @@
-import questionsOCEAN from '../../data/diagnostiques/questionsOCEAN.json';
-import { Diagnostique } from '../../models/diagnostiqueModel';
-import { IQuestionSchema, Question } from '../../models/questionModel';
+import questionsOCEAN from "../../data/diagnostiques/questionsOCEAN.json";
+import { Diagnostique } from "../../models/diagnostiqueModel";
+import { IQuestionSchema, Question } from "../../models/questionModel";
+import { DiagnostiqueName } from "../../types/diagnostiqueTypes";
 
 const seedOCEAN = async () => {
   try {
-    const diagnostiqueId = '67f90765a5c108eed164f455'; // Make sure this ID exists in your Diagnostique collection
+    const diag = await Diagnostique.findOne({
+      diagnostique: DiagnostiqueName.OCEAN,
+    });
 
-    // Check if the diagnostique exists
-    const diagnostique = await Diagnostique.findById(diagnostiqueId);
-    if (!diagnostique) {
-      console.error('❌ Diagnostique not found with given ID');
+    if (!diag) {
+      console.error("❌ Diagnostique not found with given ID");
       return;
     }
 
-    if (diagnostique.diagnostiqueName !== 'OCEAN') {
-      console.error('❌ Diagnostique is not OCEAN');
+    // Check if the diagnostique exists
+
+    if (diag.diagnostique !== DiagnostiqueName.OCEAN) {
+      console.error("❌ Diagnostique is not OCEAN");
       return;
     }
 
     // Remove existing questions if needed (optional)
-    await Question.deleteMany({ diagnostique: diagnostiqueId });
+    await Question.deleteMany({ diagnostique: diag._id });
 
     const questionDocs = questionsOCEAN.map(
-      (item: Pick<IQuestionSchema, 'name' | 'diagnostique' | 'question' | 'axis' | 'options'>) => ({
+      (
+        item: Pick<
+          IQuestionSchema,
+          "name" | "diagnostique" | "question" | "axis" | "options"
+        >
+      ) => ({
         name: item.name,
-        diagnostique: diagnostiqueId,
+        diagnostique: diag._id,
         question: item.question,
-        axis: item.axis, // corrected: use axis for RIASEC
+        axis: item.axis,
         options: item.options,
       })
     );
 
     await Question.insertMany(questionDocs);
-    console.log(`✅ Seeded ${questionDocs.length} OCEAN questions successfully.`);
+    console.log(
+      `✅ Seeded ${questionDocs.length} OCEAN questions successfully.`
+    );
   } catch (error) {
-    console.error('❌ Error seeding OCEAN questions:', error);
+    console.error("❌ Error seeding OCEAN questions:", error);
   }
 };
 

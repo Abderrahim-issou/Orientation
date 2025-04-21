@@ -32,7 +32,7 @@ export const getUserResults = asyncHandler(async (req: Request, res: Response) =
 
   const results = await Result.find({ user: userId }).populate(
     'results.diagnostique',
-    'name diagnostiqueName'
+    'name diagnostique'
   );
 
   res.status(200).json(new ApiResponse(200, results));

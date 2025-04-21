@@ -1,13 +1,20 @@
 import riasecData from "../../data/diagnostiques/riasecData.json";
 import { Diagnostique } from "../../models/diagnostiqueModel";
 import { IQuestionSchema, Question } from "../../models/questionModel";
-import { DiagnostiqueName } from "../../types/diagnostiqueTypes";
+import { DiagnostiqueName, IDiagnostique } from "../../types/diagnostiqueTypes";
 
 const seedRIASEC = async () => {
   try {
     const diag = await Diagnostique.findOne({
       diagnostique: DiagnostiqueName.RAISEC,
     });
+
+    if (!diag) {
+      console.error("❌ Diagnostique not found with given ID");
+      return;
+    }
+
+    // Check if the diagnostique exists
 
     if (diag.diagnostique !== DiagnostiqueName.RAISEC) {
       console.error("❌ Diagnostique is not RIASEC");

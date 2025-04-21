@@ -121,6 +121,7 @@ const refreshToken = asyncHandler(async (req: Request, res: Response) => {
     );
 });
 
+
 const getMatchingSchools: RequestHandler = asyncHandler(
   async (req: Request, res: Response): Promise<void> => {
     const schools = await matchSchoolStudent(req);

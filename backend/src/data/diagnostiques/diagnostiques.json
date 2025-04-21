@@ -10,32 +10,32 @@
     "objectif": "Fournir une vision approfondie de la personnalité et des tendances comportementales."
   },
   {
-    "diagnostique": "ANXIETE_SINCERE",
+    "diagnostique": "ANXIÉTÉ_SINCÈRE",
     "description": "Évaluation visant à identifier les symptômes authentiques d'anxiété.",
     "objectif": "Évaluer et comprendre le niveau réel d'anxiété ressenti par une personne."
   },
   {
-    "diagnostique": "ANXIETE_EXAMENS",
+    "diagnostique": "ANXIÉTÉ_AUX_EXAMENS",
     "description": "Mesure l'anxiété spécifiquement liée aux examens ou évaluations scolaires.",
     "objectif": "Aider les étudiants à gérer et réduire leur anxiété face aux examens."
   },
   {
-    "diagnostique": "ANXIETE_FUTUR",
+    "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
     "description": "Examine les inquiétudes et incertitudes liées à l'avenir personnel ou professionnel.",
     "objectif": "Identifier les sources de stress lié à l'avenir et proposer des pistes pour mieux les gérer."
   },
   {
-    "diagnostique": "DEPRESSION",
+    "diagnostique": "DÉPRESSION",
     "description": "Outil de dépistage des symptômes et du niveau de gravité de la dépression.",
     "objectif": "Permettre une détection précoce et orienter vers un soutien adapté."
   },
   {
-    "diagnostique": "ESTIME_SOI",
+    "diagnostique": "ESTIME_DE_SOI",
     "description": "Évalue le niveau de confiance et de valorisation personnelle d'un individu.",
     "objectif": "Encourager le développement personnel en identifiant les faiblesses en estime de soi."
   },
   {
-    "diagnostique": "DEPENDANCE_INTERNET",
+    "diagnostique": "DÉPENDANCE_À_INTERNET",
     "description": "Évalue la dépendance d'un individu à l'utilisation d'Internet.",
     "objectif": "Favoriser des habitudes numériques plus saines et réduire l'usage compulsif."
   },

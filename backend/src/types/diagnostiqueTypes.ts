@@ -4,6 +4,18 @@ export interface IDiagnostique {
   objectif: string;
 }
 
+export enum DiagnostiqueName {
+  RAISEC = "RAISEC",
+  OCEAN = "OCEAN",
+  ANXIETE_SINCERE = "ANXIÉTÉ_SINCÈRE",
+  ANXIETE_EXAMENS = "ANXIÉTÉ_AUX_EXAMENS",
+  ANXIETE_FUTUR = "ANXIÉTÉ_FACE_AU_FUTUR",
+  DEPRESSION = "DÉPRESSION",
+  ESTIME_DE_SOI = "ESTIME_DE_SOI",
+  DEPENDANCE_INTERNET = "DÉPENDANCE_À_INTERNET",
+  PRESSION_PSYCHOLOGIQUE = "PRESSION_PSYCHOLOGIQUE",
+}
+
 export interface IData {
   answers: {
     axis: string;
@@ -15,16 +27,4 @@ export interface TraitResult {
   type: string;
   score: number;
   desc: string;
-}
-
-export enum DiagnostiqueName {
-  RAISEC = "RAISEC",
-  BIG_5 = "Big 5",
-  ANXIETE_SINCERE = "ANXIÉTÉ SINCÈRE",
-  ANXIETE_EXAMENS = "ANXIÉTÉ AUX EXAMENS",
-  ANXIETE_FUTUR = "ANXIÉTÉ FACE AU FUTUR",
-  DEPRESSION = "DÉPRESSION",
-  ESTIME_DE_SOI = "ESTIME DE SOI",
-  DEPENDANCE_INTERNET = "DÉPENDANCE À INTERNET",
-  PRESSION_PSYCHOLOGIQUE = "PRESSION PSYCHOLOGIQUE",
 }

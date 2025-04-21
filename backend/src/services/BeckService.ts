@@ -21,7 +21,7 @@ function calculateBeckDepressionResult(data: IData): TraitResult {
   else if (axisScores >= 19 && axisScores <= 33) desc = 'مرتفعة';
   else desc = 'حادة';
 
-  return { type: 'درجةادمان الانترنت', score: axisScores, desc };
+  return { type: 'درجة ادمان الانترنت', score: axisScores, desc };
 }
 
 export default calculateBeckDepressionResult;

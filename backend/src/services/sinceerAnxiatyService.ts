@@ -1,6 +1,11 @@
 import { IData, TraitResult } from "../types/diagnostiqueTypes";
 
 
+// answers: {
+//   axis: string;
+//   answers: number;
+// }[];
+
 function calculateSinceerAnxiatyResult(data: IData): TraitResult {  
   const axisScores = data.answers.reduce((acc, curr) => {
     acc += curr.answers;

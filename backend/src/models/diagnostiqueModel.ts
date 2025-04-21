@@ -6,8 +6,8 @@ interface IDiagnostiqueSchema extends IDiagnostique, Document {}
 const diagnostiqueSchema = new Schema<IDiagnostiqueSchema>({
   diagnostique: {
     type: String,
-    required: true,
-    unique: true,
+    required: true, 
+    unique: true 
   },
   description: {
     type: String,
