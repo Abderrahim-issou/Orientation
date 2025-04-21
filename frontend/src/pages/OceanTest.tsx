@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import MainLayout from "@/layouts/MainLayout";
+//import fetchOceanQuestionsFromAPI from "@/api/oceanQuestions"; // Assuming you have an API function to fetch questions
 
 interface OceanQuestion {
   name: string;
@@ -25,6 +26,7 @@ interface TraitResult {
 }
 
 // Updated questions to match your prototype
+//const oceanQuestions: OceanQuestion[] = fetchOceanQuestionsFromAPI(); // Assuming you have a function to fetch questions from an API
 const oceanQuestions: OceanQuestion[] = [
   {
     "name": "Q1",

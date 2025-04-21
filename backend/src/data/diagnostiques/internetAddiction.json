@@ -1,7 +1,7 @@
 [
   {
     "name": "Q1",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تقضي وقتا أطول مما كنت تنوي قضاءه أمام الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -13,7 +13,7 @@
   },
   {
     "name": "Q2",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تهمل الواجبات اليومية لقضاء وقت أطول على الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -25,7 +25,7 @@
   },
   {
     "name": "Q3",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تفضل الجلوس أمام الانترنت على الجلوس مع أسرتك؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -37,7 +37,7 @@
   },
   {
     "name": "Q4",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل أنت سعيد بجلوسك وقت أطول أمام شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -49,7 +49,7 @@
   },
   {
     "name": "Q5",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل يتضايق الآخرون المحيطون بك من الوقت الطويل الذي تقضيه أمام الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -61,7 +61,7 @@
   },
   {
     "name": "Q6",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تكون علاقات اجتماعية مع الآخرين عبر الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -73,7 +73,7 @@
   },
   {
     "name": "Q7",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تأثرت نتائجك أو واجباتك الحياتية بسبب الوقت الذي تستغرقه على الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -85,7 +85,7 @@
   },
   {
     "name": "Q8",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تفحص بريدك الإلكتروني قبل عمل أي شيء آخر يجب عليك عمله؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -97,7 +97,7 @@
   },
   {
     "name": "Q9",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تأثر أداؤك أو نتائجك في المدرسة بسبب الجلوس أمام الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -109,7 +109,7 @@
   },
   {
     "name": "Q10",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تخفي أسماء المواقع التي تزورها على الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -121,7 +121,7 @@
   },
   {
     "name": "Q11",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تجلس أمام الانترنت للتخلص من الأفكار المزعجة؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -133,7 +133,7 @@
   },
   {
     "name": "Q12",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل ترى أن الحياة بدون الانترنت ستكون مملة وفارغة وكئيبة؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -145,7 +145,7 @@
   },
   {
     "name": "Q13",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تغضب عندما يزعجك أحد وأنت تستخدم شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -157,7 +157,7 @@
   },
   {
     "name": "Q14",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تفضل الجلوس أمام شبكة الانترنت عن النوم مبكرا؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -169,7 +169,7 @@
   },
   {
     "name": "Q15",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر أنك فشلت في تقليص المدة الزمنية التي تقضيها أمام الانترنت على الرغم من محاولتك ذلك؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -181,7 +181,7 @@
   },
   {
     "name": "Q16",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تخفي على الآخرين عدد الساعات التي تقضيها أمام شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -193,7 +193,7 @@
   },
   {
     "name": "Q17",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تفضل الجلوس أمام شبكة الانترنت عن الخروج مع أصدقائك؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -205,7 +205,7 @@
   },
   {
     "name": "Q18",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر بالإحباط عندما تكون بعيدا عن شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -217,7 +217,7 @@
   },
   {
     "name": "Q19",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تقترض مبالغ مالية من الآخرين لاستعمال الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -229,7 +229,7 @@
   },
   {
     "name": "Q20",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر بحاجتك لساعات أطول لتصفح شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -241,7 +241,7 @@
   },
   {
     "name": "Q21",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل يختفي شعورك بالإحباط والضيق عندما تجلس أمام شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -253,7 +253,7 @@
   },
   {
     "name": "Q22",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر أنه لا يمكنك الاستغناء عن شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -265,7 +265,7 @@
   },
   {
     "name": "Q23",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر أن المدة الزمنية التي تقضيها أمام شبكة الانترنت تسبب لك مشاكل مع أسرتك؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -277,7 +277,7 @@
   },
   {
     "name": "Q24",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل ترى أن الجلوس أمام شبكة الانترنت أفضل من الخروج للتنزه مع الأصدقاء؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -289,7 +289,7 @@
   },
   {
     "name": "Q25",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر أن الجلوس أمام شبكة الانترنت أفضل من مساعدة أسرتك في قضاء احتياجاتها؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -301,7 +301,7 @@
   },
   {
     "name": "Q26",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر بالكسل والنفور في الصباح نتيجة سهرك أمام شبكة الانترنت؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },
@@ -313,7 +313,7 @@
   },
   {
     "name": "Q27",
-    "diagnostique": "67f91ec51058d250fd41f7c0",
+    "diagnostique": "DEPENDANCE_INTERNET",
     "question": "هل تشعر بالمتعة عند تصفحك لمواقع شبكة الانترنت على الرغم من التكلفة المادية والإرهاق الذي سببه ذلك لك؟",
     "options": [
       { "value": 1, "text": "في كل الأوقات" },

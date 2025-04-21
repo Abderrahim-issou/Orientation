@@ -243,7 +243,7 @@ const BlogArticle: React.FC = () => {
             </Link>
           </div>
           
-          <Card className="mb-8 border-0 shadow-none">
+          <Card className="mb-8 border-0 shadow-none p-4">
             <CardHeader className="px-0">
               <Badge className="mb-2">
                 {article.category === "concours" ? "Concours" :
@@ -275,7 +275,7 @@ const BlogArticle: React.FC = () => {
               </div>
             </CardHeader>
             
-            <CardContent className="px-0">
+            <CardContent className="px-4">
               <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: article.content }}>
               </div>
               

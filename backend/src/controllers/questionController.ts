@@ -9,16 +9,19 @@ import ApiError from '../utils/apiError';
 export const getQuestionsByDiagnostic = asyncHandler(
   async (req: Request, res: Response): Promise<void> => {
     const { diagnosticName } = req.params;
+    console.log(diagnosticName);
 
     // Find the diagnostic by name
     const diagnostic = await Diagnostique.findOne({ diagnostiqueName: diagnosticName });
+    console.log(diagnostic);
 
     if (!diagnostic) {
       throw new ApiError(404, `Diagnostic with name ${diagnosticName} not found`);
     }
 
     // Find all questions for this diagnostic
-    const questions = await Question.find({ diagnostique: diagnostic._id });
+    const questions = await Question.find({ diagnostique: diagnostic.diagnostiqueName });
+    console.log(questions);
 
     res.status(200).send(new ApiResponse(200, questions));
   }
