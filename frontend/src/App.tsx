@@ -23,6 +23,7 @@ import NotFound from "./pages/NotFound";
 import AnixityManifist from "./pages/anxityManifistTest";
 import AnxietyExams from "./pages/anxityExams";
 import AnxietyFutur from "./pages/anxityFutur";
+import Depression from "./pages/depression";
 
 const queryClient = new QueryClient();
 
@@ -44,12 +45,10 @@ const App = () => (
           <Route path="/diagnostics/anxiety" element={<AnixityManifist />} />
           <Route path="/diagnostics/exam-anxiety" element={<AnxietyExams />} />
           <Route path="/diagnostics/future-anxiety" element={<AnxietyFutur />} />
-          {/* <Route path="/diagnostics/" element={< />} /> */}
-          {/* <Route path="/diagnostics/" element={< />} /> */}
-          {/* <Route path="/diagnostics/" element={< />} /> */}
-          {/* <Route path="/diagnostics/" element={< />} /> */}
-          {/* <Route path="/diagnostics/" element={< />} /> */}
-          {/* <Route path="/diagnostics/" element={< />} /> */}
+          <Route path="/diagnostics/depression" element={<Depression />} />
+          {/* <Route path="/diagnostics/self-esteem" element={< />} /> */}
+          {/* <Route path="/diagnostics/internet-addiction" element={< />} /> */}
+          {/* <Route path="/diagnostics/stress-psychologique" element={< />} /> */}
           <Route path="/diagnostics/:testId/results" element={<TestResults />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/careers/:careerId" element={<CareerDetails />} />
