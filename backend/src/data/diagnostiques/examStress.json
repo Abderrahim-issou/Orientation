@@ -1,7 +1,7 @@
 [
   {
     "name": "Q1",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالضيق عندما يسألني الأستاذ من أجل اختبار مدى استفادتي من الدرس.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -12,7 +12,7 @@
   },
   {
     "name": "Q2",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق حول إذا ما كنت سأنجح في نهاية السنة أم لا.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -23,7 +23,7 @@
   },
   {
     "name": "Q3",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالتوتر حين يطلب مني الأستاذ الوقوف والقراءة بصوت مرتفع.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -34,7 +34,7 @@
   },
   {
     "name": "Q4",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "عندما يطلب مني الأستاذ انجاز تمرين على السبورة أتمنى لو طلب ذلك من تلميذ آخر.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -45,7 +45,7 @@
   },
   {
     "name": "Q5",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أثناء نومي أحلم كثيرا بالإمتحانات.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -56,7 +56,7 @@
   },
   {
     "name": "Q6",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "تزداد دقات قلبي عندما يقترب موعد الإمتحانات.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -67,7 +67,7 @@
   },
   {
     "name": "Q7",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق الشديد أثناء تفكيري في الإمتحانات المقبلة خاصة أثناء الاستعداد للنوم.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -78,7 +78,7 @@
   },
   {
     "name": "Q8",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "ترتجف (ترتعد) يدي عندما يطلب الأستاذ مني الكتابة على السبورة أمام زملائي.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -89,7 +89,7 @@
   },
   {
     "name": "Q9",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالتوتر عند اقتراب موعد الإمتحان أكثر من زملائي.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -100,7 +100,7 @@
   },
   {
     "name": "Q10",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "في البيت، عندما أفكر في دروس الغد أخاف أن أعطي إجابات خاطئة.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -111,7 +111,7 @@
   },
   {
     "name": "Q11",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "إذا تغيبت عن المدرسة بسبب مرض أشعر أن أدائي سوف يكون أقل من زملائي.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -122,7 +122,7 @@
   },
   {
     "name": "Q12",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "عندما أفكر بدروس اليوم التالي أشعر بالقلق بأن أدائي (إنجازي) في بعض الدروس لن يكون جيدا.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -133,7 +133,7 @@
   },
   {
     "name": "Q13",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالغثيان والارتجاف (الارتعاد) أو الدوار (الدوخة) عندما يسألني الأستاذ للتأكد من مدى استفادتي من الدرس.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -144,7 +144,7 @@
   },
   {
     "name": "Q14",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالارتباك والتوتر عندما تكون إجابتي خاطئة.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -155,7 +155,7 @@
   },
   {
     "name": "Q15",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بخوف من كل موقف فيه امتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -166,7 +166,7 @@
   },
   {
     "name": "Q16",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بضيق شديد قبل دخولي الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -177,7 +177,7 @@
   },
   {
     "name": "Q17",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "بعد الانتهاء من الإمتحان أشعر بالتوتر حيال أدائي حول مدى صحة إجاباتي.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -188,7 +188,7 @@
   },
   {
     "name": "Q18",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر أحيانا أن أدائي في الإمتحان كان سيئا بالرغم من تحضيري واستعدادي له.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -199,7 +199,7 @@
   },
   {
     "name": "Q19",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر أن يدي ترتجف (ترتعد) أثناء الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -210,7 +210,7 @@
   },
   {
     "name": "Q20",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أخاف من الفشل إذا علمت أن الأستاذ سيعطينا امتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -221,7 +221,7 @@
   },
   {
     "name": "Q21",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر أنني أنسى في الإمتحان كثيرا من المعلومات التي كنت أتذكرها قبل بدئه.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -232,7 +232,7 @@
   },
   {
     "name": "Q22",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أتمنى لو أنني لا أشعر بضيق من الإمتحان بهذه الدرجة.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -243,7 +243,7 @@
   },
   {
     "name": "Q23",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق كلما أخبرنا الأستاذ بموعد الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -254,7 +254,7 @@
   },
   {
     "name": "Q24",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر أن إجاباتي سوف تكون سيئة أثناء الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -265,7 +265,7 @@
   },
   {
     "name": "Q25",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أخاف أحيانا عندما أكون ذاهبا إلى المدرسة أن يفاجئنا الأستاذ بتمرير امتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -276,7 +276,7 @@
   },
   {
     "name": "Q26",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بصداع (ألم في الرأس) شديد قبل وأثناء الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -287,7 +287,7 @@
   },
   {
     "name": "Q27",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "خوفي من الرسوب (عدم النجاح) يعيق أدائي وتقدمي في الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -298,7 +298,7 @@
   },
   {
     "name": "Q28",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق عندما يعلن الأستاذ الوقت المتبقي لإنهاء الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -309,7 +309,7 @@
   },
   {
     "name": "Q29",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالخوف أثناء انتظار توزيع أوراق أسئلة الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -320,7 +320,7 @@
   },
   {
     "name": "Q30",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق أثناء الإمتحان خوفا من ألا يكفيني الوقت للإجابة عن أسئلته.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -331,7 +331,7 @@
   },
   {
     "name": "Q31",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق أثناء انتظار دخول قاعة الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -342,7 +342,7 @@
   },
   {
     "name": "Q32",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالخوف من المدرسة لأنها تذكرني بالإمتحانات.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -353,7 +353,7 @@
   },
   {
     "name": "Q33",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بعدم الارتياح أثناء تحدث التلاميذ في الساحة عن امتحان قادم.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -364,7 +364,7 @@
   },
   {
     "name": "Q34",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "تتعرق يدي ووجهي أثناء الإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -375,7 +375,7 @@
   },
   {
     "name": "Q35",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالتوتر والارتباك أثناء استعدادي للإمتحان.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -386,7 +386,7 @@
   },
   {
     "name": "Q36",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "غالبا ما أشعر بالقلق أثناء استعدادي للإمتحان قبل موعده بيوم.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -397,7 +397,7 @@
   },
   {
     "name": "Q37",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر دائما بالتوتر والارتباك عند استعداد للإمتحان النهائي.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },
@@ -408,7 +408,7 @@
   },
   {
     "name": "Q38",
-    "diagnostique": "67f91c4650c87cf0c2a02240",
+    "diagnostique": "ANXIETE_EXAMENS",
     "question": "أشعر بالقلق عندما يعلن الأستاذ عن مواعيد الإمتحانات القادمة.",
     "options": [
       { "value": 1, "text": "لا يحدث أبدا" },

@@ -1,7 +1,7 @@
 [
   {
     "name": "Q1",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "الحزن",
     "options": [
       { "value": 0, "text": "لا أشعر بالحزن" },
@@ -12,7 +12,7 @@
   },
   {
     "name": "Q2",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "التشاؤم",
     "options": [
       { "value": 0, "text": "لم أفقد الأمل في المستقبل" },
@@ -23,7 +23,7 @@
   },
   {
     "name": "Q3",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "الفشل السابق",
     "options": [
       { "value": 0, "text": "لا أشعر بأنني شخص فاشل" },
@@ -34,7 +34,7 @@
   },
   {
     "name": "Q4",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "فقدان الاستمتاع",
     "options": [
       { "value": 0, "text": "استمتع بالأشياء بنفس قدر استمتاعي بها من قبل" },
@@ -48,7 +48,7 @@
   },
   {
     "name": "Q5",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "مشاعر الإثم (تأنيب الضمير)",
     "options": [
       { "value": 0, "text": "لا أشعر بالإثم" },
@@ -59,7 +59,7 @@
   },
   {
     "name": "Q6",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "مشاعر العقاب",
     "options": [
       { "value": 0, "text": "لا أشعر بأنه يقع على عقاب" },
@@ -70,7 +70,7 @@
   },
   {
     "name": "Q7",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "عدم حب الذات",
     "options": [
       { "value": 0, "text": "شعوري نحو نفسي لم يتغير" },
@@ -81,7 +81,7 @@
   },
   {
     "name": "Q8",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "نقد الذات",
     "options": [
       { "value": 0, "text": "لا أنتقد أو ألوم نفسي أكثر من المعتاد" },
@@ -92,7 +92,7 @@
   },
   {
     "name": "Q9",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "الأفكار أو الرغبات الانتحارية",
     "options": [
       { "value": 0, "text": "ليس لدي أي أفكار للانتحار" },
@@ -103,7 +103,7 @@
   },
   {
     "name": "Q10",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "البكاء",
     "options": [
       { "value": 0, "text": "لا أبكي أكثر مما اعتدت" },
@@ -114,7 +114,7 @@
   },
   {
     "name": "Q11",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "التهيج والاستثارة",
     "options": [
       { "value": 0, "text": "لست أكثر تهيجا أو استثارة عن المعتاد" },
@@ -125,7 +125,7 @@
   },
   {
     "name": "Q12",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "فقدان الاهتمام",
     "options": [
       { "value": 0, "text": "لم أفقد الاهتمام بالآخرين." },
@@ -136,7 +136,7 @@
   },
   {
     "name": "Q13",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "التردد",
     "options": [
       { "value": 0, "text": "لازلت أتخذ قراراتي كما اعتدت على ذلك." },
@@ -147,7 +147,7 @@
   },
   {
     "name": "Q14",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "انعدام القيمة",
     "options": [
       { "value": 0, "text": "لا أشعر بأنني عديم القيمة" },
@@ -158,7 +158,7 @@
   },
   {
     "name": "Q15",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "فقدان الطاقة",
     "options": [
       { "value": 0, "text": "لدي نفس القدر من الحيوية كالمعتاد" },
@@ -169,7 +169,7 @@
   },
   {
     "name": "Q16",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "تغييرا في نمط النوم",
     "options": [
       { "value": 0, "text": "لم يحدث لي أي تغير في نمط (نظام) نومي." },
@@ -183,7 +183,7 @@
   },
   {
     "name": "Q17",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "القابلية للغضب أو الانزعاج",
     "options": [
       { "value": 0, "text": "قابليتي للغضب أو الانزعاج لم تتغير عن المعتاد." },
@@ -194,7 +194,7 @@
   },
   {
     "name": "Q18",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "تغيرات في الشهية",
     "options": [
       { "value": 0, "text": "لم يحدث أي تغير في شهيتي." },
@@ -205,7 +205,7 @@
   },
   {
     "name": "Q19",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "صعوبة التركيز",
     "options": [
       { "value": 0, "text": "أستطيع التركيز كما المعتاد." },
@@ -216,7 +216,7 @@
   },
   {
     "name": "Q20",
-    "diagnostique": "67f91af5435e96a75159bc2c",
+    "diagnostique": "DEPRESSION",
     "axis": "الإرهاق أو الإجهاد",
     "options": [
       { "value": 0, "text": "لست أكثر إرهاقا أو إجهادا من المعتاد." },
