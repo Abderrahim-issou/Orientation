@@ -20,6 +20,10 @@ backend/app.log
 backend/Dockerfile
 
 
+
+backend/app.log
+backend/Dockerfile
+
 # Logs
 *.log
 logs/

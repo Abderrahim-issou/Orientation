@@ -121,7 +121,7 @@ const Diagnostics: React.FC = () => {
                 title="Anxiété manifeste"
                 description="Évaluez votre niveau d'anxiété générale et son impact sur votre vie quotidienne."
                 icon={<MessagesSquare className="h-6 w-6 text-orientpro-purple" />}
-                path="/diagnostics/anixietyManifist"
+                path="/diagnostics/anxiety-manifeste"
                 color="bg-orientpro-purple/10"
               />
               
