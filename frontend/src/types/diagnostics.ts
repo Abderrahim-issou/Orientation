@@ -2,8 +2,8 @@
 export interface Question {
   name: string;
   diagnostique: string;
-  axis: string;
-  question: string;
+  axis?: string;
+  question?: string;
   options: {
     value: number;
     text: string;
