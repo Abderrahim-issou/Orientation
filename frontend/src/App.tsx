@@ -22,6 +22,7 @@ import BlogArticle from "./pages/BlogArticle";
 import NotFound from "./pages/NotFound";
 import AnixityManifist from "./pages/anxityManifistTest";
 import AnxietyExams from "./pages/anxityExams";
+import AnxietyFutur from "./pages/anxityFutur";
 
 const queryClient = new QueryClient();
 
@@ -42,7 +43,7 @@ const App = () => (
           <Route path="/diagnostics/ocean" element={<OceanTest />} />
           <Route path="/diagnostics/anxiety" element={<AnixityManifist />} />
           <Route path="/diagnostics/exam-anxiety" element={<AnxietyExams />} />
-          {/* <Route path="/diagnostics/" element={< />} /> */}
+          <Route path="/diagnostics/future-anxiety" element={<AnxietyFutur />} />
           {/* <Route path="/diagnostics/" element={< />} /> */}
           {/* <Route path="/diagnostics/" element={< />} /> */}
           {/* <Route path="/diagnostics/" element={< />} /> */}
