@@ -1,5 +1,5 @@
 import mongoose, { Document, model, Schema } from 'mongoose';
-import { EBlogType, IBlog } from '../types/blogTypes';
+import {  IBlog } from '../types/blogTypes';
 
 interface IBlogSchema extends IBlog, Document {}
 
@@ -14,7 +14,6 @@ const blogSchema = new Schema<IBlogSchema>({
   },
   category: {
     type: String,
-    enum: EBlogType,
     required: true,
   },
   school: {

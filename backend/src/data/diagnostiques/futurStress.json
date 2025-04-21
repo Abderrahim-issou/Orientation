@@ -1,7 +1,7 @@
 [
     {
         "name": "Q1",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "يراودني أمل في تحقيق أهدافي في الحياة.",
         "options": [
             {"value": 1,"text": "تعبر عني تماما"},
@@ -13,7 +13,7 @@
     },
     {
         "name": "Q2",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر أن فرص سعادتي ستتضاءل في المستقبل.",
         "options": [
             {
@@ -40,7 +40,7 @@
     },
     {
         "name": "Q3",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر أن حياتنا مقبلة على كوارث مختلفة.",
         "options": [
             {
@@ -67,7 +67,7 @@
     },
     {
         "name": "Q4",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "خوفي من المستقبل يضعف دوافعي لتأسيس عائلة.",
         "options": [
             {
@@ -94,7 +94,7 @@
     },
     {
         "name": "Q5",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر أنني سيئ الحظ الآن وسيكون حظي أسوا في المستقبل.",
         "options": [
             {
@@ -121,7 +121,7 @@
     },
     {
         "name": "Q6",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى تکرار مشكلاتي الماضية في المستقبل.",
         "options": [
             {
@@ -148,7 +148,7 @@
     },
     {
         "name": "Q7",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر بالثقة بأي قرار أتخذه بشأن مستقبلي.",
         "options": [
             {
@@ -175,7 +175,7 @@
     },
     {
         "name": "Q8",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "ينتابني الإحساس بالأمل حين أفكر في مستقبلي.",
         "options": [
             {
@@ -202,7 +202,7 @@
     },
     {
         "name": "Q9",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "ينتابني الأرق ليلا كلما تأملت في المستقبل.",
         "options": [
             {
@@ -229,7 +229,7 @@
     },
     {
         "name": "Q10",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "يتملكني الشعور بالإحباط، إذ أن المستقبل الذي ينتظرني غير واضح.",
         "options": [
             {
@@ -256,7 +256,7 @@
     },
     {
         "name": "Q11",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أتوقع أن حياتي في المستقبل ستصبح باعثة على التعاسة والشقاء.",
         "options": [
             {
@@ -283,7 +283,7 @@
     },
     {
         "name": "Q12",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أتوقع تزايد الشعور بالأمن والطمأنينة في المستقبل.",
         "options": [
             {
@@ -310,7 +310,7 @@
     },
     {
         "name": "Q13",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أتوقع زيادة عالية لأسعار المواد في الأيام المقبلة.",
         "options": [
             {
@@ -337,7 +337,7 @@
     },
     {
         "name": "Q14",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "يراودني أمل في الحصول على فرصة لإكمال دراستي العالية مستقبلا.",
         "options": [
             {
@@ -364,7 +364,7 @@
     },
     {
         "name": "Q15",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أن التخطيط لعمل ما مضيعة للوقت.",
         "options": [
             {
@@ -391,7 +391,7 @@
     },
     {
         "name": "Q16",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أن متابعة دراستي نوع من العبث وغير مجدية لمستقبل عائلتي.",
         "options": [
             {
@@ -418,7 +418,7 @@
     },
     {
         "name": "Q17",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أتوقع أن أجد صعوبات ترهقني مستقبلا للحصول على دخل يسد حاجاتي المعاشية.",
         "options": [
             {
@@ -445,7 +445,7 @@
     },
     {
         "name": "Q18",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "بفضل دراستي، سأكون عضوا نافعا في المستقبل.",
         "options": [
             {
@@ -472,7 +472,7 @@
     },
     {
         "name": "Q19",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر أن الدراسة مصدر ضمان اقتصادي للغد.",
         "options": [
             {
@@ -499,7 +499,7 @@
     },
     {
         "name": "Q20",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أن القيم الأخلاقية ترتقي يوما بعد آخر.",
         "options": [
             {
@@ -526,7 +526,7 @@
     },
     {
         "name": "Q21",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أن الهجرة إلى الخارج ستكون الحل الأخير لما أعانيه من مشكلات.",
         "options": [
             {
@@ -553,7 +553,7 @@
     },
     {
         "name": "Q22",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى ألا أوفق في حياتي الزوجية مستقبلا.",
         "options": [
             {
@@ -580,7 +580,7 @@
     },
     {
         "name": "Q23",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "عندي أمل أن أتكيف مع الجو الجامعي.",
         "options": [
             {
@@ -607,7 +607,7 @@
     },
     {
         "name": "Q24",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "إن استمراري في الدراسة يرفع من فرص حصولي على زواج مناسب.",
         "options": [
             {
@@ -634,7 +634,7 @@
     },
     {
         "name": "Q25",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "اثق بقدرتي على حل أية مشكلة اجتماعية تواجهني.",
         "options": [
             {
@@ -661,7 +661,7 @@
     },
     {
         "name": "Q26",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أنني سأواكب مستجدات الحياة.",
         "options": [
             {
@@ -688,7 +688,7 @@
     },
     {
         "name": "Q27",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "لدي أصدقاء وصديقات أعتمد عليهم وقت الحاجة.",
         "options": [
             {
@@ -715,7 +715,7 @@
     },
     {
         "name": "Q28",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى أن تجبرني ظروفي على التعامل مع أفراد لا أنسجم معهم.",
         "options": [
             {
@@ -742,7 +742,7 @@
     },
     {
         "name": "Q29",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى أن تكون علاقات الآخرين معي نفعية.",
         "options": [
             {
@@ -769,7 +769,7 @@
     },
     {
         "name": "Q30",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى على بلدي من أي مكروه.",
         "options": [
             {
@@ -796,7 +796,7 @@
     },
     {
         "name": "Q31",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أن العلاقات الاجتماعية غير صادقة كلما تقدم بي العمر.",
         "options": [
             {
@@ -823,7 +823,7 @@
     },
     {
         "name": "Q32",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى استمرار تدهور العلاقات الاجتماعية والإنسانية بين الأفراد في المستقبل.",
         "options": [
             {
@@ -850,7 +850,7 @@
     },
     {
         "name": "Q33",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "خوفي على نفسي من غدر الذين من حولي.",
         "options": [
             {
@@ -877,7 +877,7 @@
     },
     {
         "name": "Q34",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "عند مراجعتي الطبيب يؤكد أن ما أعانيه من الأم راجع إلى أسباب نفسية.",
         "options": [
             {
@@ -904,7 +904,7 @@
     },
     {
         "name": "Q35",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى من انتشار الأوبئة والأمراض بشكل أوسع مستقبلا.",
         "options": [
             {
@@ -931,7 +931,7 @@
     },
     {
         "name": "Q36",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أعاني من جفاف الفم عندما أفكر بمستقبلي.",
         "options": [
             {
@@ -958,7 +958,7 @@
     },
     {
         "name": "Q37",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى من الإصابة بعاهات بدنية.",
         "options": [
             {
@@ -985,7 +985,7 @@
     },
     {
         "name": "Q38",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "ألاحظ أن يدي ترتعش عندما أقوم بعمل ما.",
         "options": [
             {
@@ -1012,7 +1012,7 @@
     },
     {
         "name": "Q39",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أعرق كثيرا وبسهولة حتى أيام البرد.",
         "options": [
             {
@@ -1039,7 +1039,7 @@
     },
     {
         "name": "Q40",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر بضغط في صدري وأن قلبي يدق بشدة عليه عند تفكيري في مستقبلي.",
         "options": [
             {
@@ -1066,7 +1066,7 @@
     },
     {
         "name": "Q41",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أتوقع استمرار الظروف الضاغطة الحالية مما يؤدي إلى تدهور صحتي.",
         "options": [
             {
@@ -1093,7 +1093,7 @@
     },
     {
         "name": "Q42",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر بآلام في المعدة كلما تأملت مستقبلي.",
         "options": [
             {
@@ -1120,7 +1120,7 @@
     },
     {
         "name": "Q43",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "يقلقني تدخل الأهل في تقرير مصيري.",
         "options": [
             {
@@ -1147,7 +1147,7 @@
     },
     {
         "name": "Q44",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أخشى أن أفقد أحد أفراد أسرتي.",
         "options": [
             {
@@ -1174,7 +1174,7 @@
     },
     {
         "name": "Q45",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أرى أن دوري في الأسرة سيزداد قوة.",
         "options": [
             {
@@ -1201,7 +1201,7 @@
     },
     {
         "name": "Q46",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أتوقع أن تحصل لي خلافات أسرية مستقبلا.",
         "options": [
             {
@@ -1228,7 +1228,7 @@
     },
     {
         "name": "Q47",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "يتملكني شعور بالاطمئنان على مستقبل أسرتي.",
         "options": [
             {
@@ -1255,7 +1255,7 @@
     },
     {
         "name": "Q48",
-        "diagnostique": "ANXIETE_FUTUR",
+        "diagnostique": "ANXIÉTÉ_FACE_AU_FUTUR",
         "question": "أشعر بالاطمئنان على أفراد أسرتي على الرغم من انتشار الظواهر السلوكية غير السليمة.",
         "options": [
             {

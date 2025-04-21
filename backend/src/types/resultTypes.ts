@@ -16,5 +16,5 @@ export interface IRIASECScore {
 
 export interface IResult {
   diagnostique: IDiagnostiqueSchema['_id'];
-  scores: IDiagnostiqueSchema['diagnostiqueName'] extends 'RIASEC' ? IRIASECScore[] : number;
+  scores: IDiagnostiqueSchema['diagnostique'] extends 'RIASEC' ? IRIASECScore[] : number;
 }

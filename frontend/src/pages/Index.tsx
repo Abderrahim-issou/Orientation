@@ -37,7 +37,7 @@ const Index: React.FC = () => {
               <div className="absolute inset-0 bg-white/10 rounded-lg border border-white/20 shadow-xl"></div>
               {/* Image ou graphique à ajouter ici */}
               <video
-                src="/224245_large.mp4"
+                src="../../public/224245_large.mp4"
                 className="w-full h-full object-cover rounded-lg"
                 autoPlay
                 loop

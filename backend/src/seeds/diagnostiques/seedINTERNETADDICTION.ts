@@ -1,30 +1,31 @@
 import internetAddiction from '../../data/diagnostiques/internetAddiction.json';
 import { Diagnostique } from '../../models/diagnostiqueModel';
 import { IQuestionSchema, Question } from '../../models/questionModel';
+import { DiagnostiqueName } from '../../types/diagnostiqueTypes';
 
 const seedINTERENETADDICTION = async () => {
   try {
-    const diagnostiqueId = '67f91ec51058d250fd41f7c0'; // Make sure this ID exists in your Diagnostique collection
+    const diag = await Diagnostique.findOne({
+      diagnostique: DiagnostiqueName.DEPENDANCE_INTERNET,
+    });
 
-    // Check if the diagnostique exists
-    const diagnostique = await Diagnostique.findById(diagnostiqueId);
-    if (!diagnostique) {
-      console.error('❌ Diagnostique not found with given ID');
+    if (!diag) {
+      console.error("❌ Diagnostique not found with given ID");
       return;
     }
 
-    if (diagnostique.diagnostiqueName !== 'INTERNET-ADDICTION') {
+    if (diag.diagnostique !== DiagnostiqueName.DEPENDANCE_INTERNET) {
       console.error('❌ Diagnostique is not INTERNET-ADDICTION');
       return;
     }
 
     // Remove existing questions if needed (optional)
-    await Question.deleteMany({ diagnostique: diagnostiqueId });
+    await Question.deleteMany({ diagnostique: diag._id });
 
     const questionDocs = internetAddiction.map(
       (item: Pick<IQuestionSchema, 'name' | 'diagnostique' | 'question' | 'axis' | 'options'>) => ({
         name: item.name,
-        diagnostique: diagnostiqueId,
+        diagnostique: diag._id,
         question: item.question,
         axis: item.axis, // corrected: use axis for RIASEC
         options: item.options,
