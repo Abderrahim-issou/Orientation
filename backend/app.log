@@ -21,3 +21,16 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/diagnostics/ocean\",\"status\":\"200\",\"responseTime\":\"9.377\"}","timestamp":"2025-04-21T01:17:38.828Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/diagnostics/raisec\",\"status\":\"200\",\"responseTime\":\"62.647\"}","timestamp":"2025-04-21T01:29:35.517Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/diagnostics/internetAdiction\",\"status\":\"200\",\"responseTime\":\"8.124\"}","timestamp":"2025-04-21T01:37:17.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/diagnostic/RAISEC/questions\",\"status\":\"404\",\"responseTime\":\"1.752\"}","timestamp":"2025-04-21T04:45:24.755Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/diagnostic/RAISEC/questions\",\"status\":\"404\",\"responseTime\":\"1.643\"}","timestamp":"2025-04-21T04:47:15.742Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/RAISEC/questions\",\"status\":\"200\",\"responseTime\":\"154.378\"}","timestamp":"2025-04-21T04:48:38.886Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/OCEAN/questions\",\"status\":\"200\",\"responseTime\":\"394.669\"}","timestamp":"2025-04-21T04:49:29.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ANXI%C3%89T%C3%89%20SINC%C3%88RE/questions\",\"status\":\"200\",\"responseTime\":\"36.431\"}","timestamp":"2025-04-21T04:50:22.866Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ANXI%C3%89T%C3%89_SINC%C3%88RE/questions\",\"status\":\"200\",\"responseTime\":\"88.913\"}","timestamp":"2025-04-21T04:54:37.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ANXI%C3%89T%C3%89_AUX_EXAMENS/questions\",\"status\":\"200\",\"responseTime\":\"42.107\"}","timestamp":"2025-04-21T04:54:48.272Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ANXI%C3%89T%C3%89_FACE_AU_FUTUR/questions\",\"status\":\"200\",\"responseTime\":\"15.482\"}","timestamp":"2025-04-21T04:54:59.044Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ANXI%C3%89T%C3%89_FACE_AU_FUTUR/questions\",\"status\":\"200\",\"responseTime\":\"65.861\"}","timestamp":"2025-04-21T04:59:51.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/D%C3%89PRESSION/questions\",\"status\":\"200\",\"responseTime\":\"18.030\"}","timestamp":"2025-04-21T05:00:03.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/ESTIME_DE_SOI/questions\",\"status\":\"200\",\"responseTime\":\"28.398\"}","timestamp":"2025-04-21T05:00:10.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/D%C3%89PENDANCE_%C3%80_INTERNET/questions\",\"status\":\"200\",\"responseTime\":\"36.469\"}","timestamp":"2025-04-21T05:00:36.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/api/diagnostic/PRESSION_PSYCHOLOGIQUE/questions\",\"status\":\"200\",\"responseTime\":\"26.776\"}","timestamp":"2025-04-21T05:00:44.998Z"}

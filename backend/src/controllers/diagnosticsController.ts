@@ -11,6 +11,7 @@ import calculateInternetAddictionResult from "../services/internetAdictionServic
 import ApiResponse from "../utils/apiResponse";
 import calculateBeckDepressionResult from "../services/BeckService";
 import { User } from "../models/userModel";
+import { DiagnostiqueName } from "../types/diagnostiqueTypes";
 
 const diagController = asyncHandler(async (req: Request, res: Response): Promise<void> => {
     const { diagName } = req.params;
@@ -25,7 +26,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
         //     { axis: "Leadership", answers: 2 },
         //     { axis: "Adaptability", answers: 5 },
         //   ];
-        case 'beckDepression':
+        case DiagnostiqueName.DEPRESSION:
             res.status(200).send(new ApiResponse(200, calculateBeckDepressionResult(data)));
             return;
             // {
@@ -53,7 +54,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
             //   }
               
 
-        case 'selfEsteem':
+        case DiagnostiqueName.ESTIME_DE_SOI:
             res.status(200).send(new ApiResponse(200, calculateSelfEsteemResult(data)));
             return;
 
@@ -99,7 +100,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
               
 
 
-        case 'pression':
+        case DiagnostiqueName.PRESSION_PSYCHOLOGIQUE:
             res.status(200).send(new ApiResponse(200, calculatePressionResult(data)));
             return;
 
@@ -130,7 +131,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
             //   }
 
 
-        case 'examStress':
+        case DiagnostiqueName.ANXIETE_EXAMENS:
             res.status(200).send(new ApiResponse(200, calculateExamscore(data)));
             return;
 
@@ -165,7 +166,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
               
 
             
-        case 'futureStress':
+        case DiagnostiqueName.ANXIETE_FUTUR:
             res.status(200).send(new ApiResponse(200, calculateFutureStressResult(data)));
             return;
 
@@ -198,7 +199,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
         
 
 
-        case 'sincerAnxiaty':
+        case DiagnostiqueName.ANXIETE_SINCERE:
             res.status(200).send(new ApiResponse(200, calculateSinceerAnxiatyResult(data)));
             return;
 
@@ -239,7 +240,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
 
 
 
-        case 'raisec':
+        case DiagnostiqueName.RAISEC:
             const user = req.user;
             console.log(user)
             const exitingUser = await User.findOne({ _id: user.id});
@@ -287,7 +288,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
               
 
 
-        case 'ocean':
+        case DiagnostiqueName.OCEAN:
             res.status(200).send(new ApiResponse(200, calculateOceanResult(data)));
             return;
 
@@ -345,7 +346,7 @@ const diagController = asyncHandler(async (req: Request, res: Response): Promise
             //   }
             
 
-        case 'internetAdiction':
+        case DiagnostiqueName.DEPENDANCE_INTERNET:
             res.status(200).send(new ApiResponse(200, calculateInternetAddictionResult(data)));
             return;
 

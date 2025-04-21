@@ -4,10 +4,10 @@ import { IDiagnostique } from '../types/diagnostiqueTypes';
 interface IDiagnostiqueSchema extends IDiagnostique, Document {}
 
 const diagnostiqueSchema = new Schema<IDiagnostiqueSchema>({
-  diagnostiqueName: {
+  diagnostique: {
     type: String,
-    required: true,
-    unique: true,
+    required: true, 
+    unique: true 
   },
   description: {
     type: String,
