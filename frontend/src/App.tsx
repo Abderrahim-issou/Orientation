@@ -25,6 +25,7 @@ import AnxietyExams from "./pages/anxityExams";
 import AnxietyFutur from "./pages/anxityFutur";
 import Depression from "./pages/depression";
 import SelfEsteem from "./pages/selfEsteem";
+import InternetAddiction from "./pages/internetAddiction";
 
 const queryClient = new QueryClient();
 
@@ -49,7 +50,7 @@ const App = () => (
           <Route path="/diagnostics/future-anxiety" element={<AnxietyFutur />} />
           <Route path="/diagnostics/depression" element={<Depression />} />
           <Route path="/diagnostics/self-esteem" element={<SelfEsteem />} />
-          {/* <Route path="/diagnostics/internet-addiction" element={< />} /> */}
+          <Route path="/diagnostics/internet-addiction" element={<InternetAddiction />} />
           {/* <Route path="/diagnostics/stress-psychologique" element={< />} /> */}
           <Route path="/diagnostics/:testId/results" element={<TestResults />} />
           <Route path="/careers" element={<Careers />} />
