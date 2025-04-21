@@ -6,6 +6,7 @@ import { IBranch } from '../../types/branchTypes';
 const seedBranch = async () => {
   try {
     for (const branch of branchData) {
+      console.log(branch);
       // 1. Find the filiere document using its enum title
       const filiereDoc = await Filiere.findOne({ title: branch.filiere });
 

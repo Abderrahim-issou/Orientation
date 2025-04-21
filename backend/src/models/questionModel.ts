@@ -2,6 +2,7 @@ import { Document, model, Schema } from 'mongoose';
 import { IQuestion } from '../types/questionTypes';
 import ApiError from '../utils/apiError';
 import { Diagnostique } from './diagnostiqueModel';
+import { DiagnostiqueName } from '../types/diagnostiqueTypes';
 
 interface IQuestionSchema extends IQuestion, Document {}
 
@@ -27,7 +28,7 @@ questionSchema.pre<IQuestionSchema>('save', async function (next) {
       return next(new ApiError(404, 'Diagnostique not found ❌'));
     }
 
-    if (diagnostique.diagnostiqueName === 'RIASEC') {
+    if (diagnostique.diagnostique === DiagnostiqueName.RAISEC) {
       // Must have axis, and remove chaine if present
       if (!this.chaine) {
         return next(new ApiError(400, 'Field "axis" is required for RIASEC diagnostique ❌'));

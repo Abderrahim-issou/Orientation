@@ -3,9 +3,9 @@ import { IData, TraitResult } from "../types/diagnostiqueTypes";
 
 export const calculateFutureStressResult = (data: IData):TraitResult => {
     const score = data.answers.reduce((accu, i) => { return accu + i.answers }, 0)
-    var result;
+    var result: {score: number, desc: string };
     switch (true) {
-        case (score >= 48 && score <= 87):
+        case (score >= 0 && score <= 87):
             result = {score, desc: "غائبة" };
             break;
         case (score >= 88 && score <= 126):

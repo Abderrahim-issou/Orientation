@@ -19,7 +19,7 @@ function calculerScore(data: IData) {
   const total = Object.values(result).reduce((sum, val) => {
       console.log(val)
      return sum + Number(val)
-    
+
   }, 0);
   console.log('This Is The Total',total)
 

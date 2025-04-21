@@ -8,11 +8,13 @@ import ApiError from '../utils/apiError';
 // Get questions by diagnostic name
 export const getQuestionsByDiagnostic = asyncHandler(
   async (req: Request, res: Response): Promise<void> => {
+    console.log("ee");
+    
     const { diagnosticName } = req.params;
     console.log(diagnosticName);
 
     // Find the diagnostic by name
-    const diagnostic = await Diagnostique.findOne({ diagnostiqueName: diagnosticName });
+    const diagnostic = await Diagnostique.findOne({ diagnostique: diagnosticName });
     console.log(diagnostic);
 
     if (!diagnostic) {
@@ -20,7 +22,7 @@ export const getQuestionsByDiagnostic = asyncHandler(
     }
 
     // Find all questions for this diagnostic
-    const questions = await Question.find({ diagnostique: diagnostic.diagnostiqueName });
+    const questions = await Question.find({ diagnostique: diagnostic._id });
     console.log(questions);
 
     res.status(200).send(new ApiResponse(200, questions));

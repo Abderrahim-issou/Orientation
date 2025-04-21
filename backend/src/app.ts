@@ -104,6 +104,16 @@ app.use("/api/diagnostic", diagnosticRoute);
 app.use("/api/results", resultRoutes);
 app.use("/api", questionRoutes);
 
+//   res.status(201).send('Success ✅')
+// });
+app.use('/diagnostics',diagnosticRoute)
+app.use('/',CareerRoute)
+app.use('/api/auth', authRoute);
+app.use('/api/schools', schoolRoutes);
+app.use('/api/careers', careerRoutes);
+app.use('/api/diagnostic', diagnosticRoute);
+app.use('/api/results', resultRoutes);
+app.use('/api', questionRoutes);
 // *********
 // EXECUTION
 

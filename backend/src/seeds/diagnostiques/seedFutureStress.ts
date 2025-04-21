@@ -1,12 +1,12 @@
-import sincereAnxiety from '../../data/diagnostiques/sincereAnxiety.json';
+import futureStress from '../../data/diagnostiques/futurStress.json';
 import { Diagnostique } from '../../models/diagnostiqueModel';
 import { IQuestionSchema, Question } from '../../models/questionModel';
 import { DiagnostiqueName } from '../../types/diagnostiqueTypes';
 
-const seedSINCEREANXIETY = async () => {
+const seedAnxieteFuture = async () => {
   try {
     const diag = await Diagnostique.findOne({
-      diagnostique: DiagnostiqueName.ANXIETE_SINCERE,
+      diagnostique: DiagnostiqueName.ANXIETE_FUTUR,
     });
 
     if (!diag) {
@@ -14,15 +14,15 @@ const seedSINCEREANXIETY = async () => {
       return;
     }
 
-    if (diag.diagnostique !== DiagnostiqueName.ANXIETE_SINCERE) {
-      console.error('❌ Diagnostique is not SINCERE-ANXIETY');
+    if (diag.diagnostique !== DiagnostiqueName.ANXIETE_FUTUR) {
+      console.error('❌ Diagnostique is not ANXIETE_FUTURE');
       return;
     }
 
     // Remove existing questions if needed (optional)
     await Question.deleteMany({ diagnostique: diag._id });
 
-    const questionDocs = sincereAnxiety.map(
+    const questionDocs = futureStress.map(
       (item: Pick<IQuestionSchema, 'name' | 'diagnostique' | 'question' | 'options'>) => ({
         name: item.name,
         diagnostique: diag._id,
@@ -32,10 +32,10 @@ const seedSINCEREANXIETY = async () => {
     );
 
     await Question.insertMany(questionDocs);
-    console.log(`✅ Seeded ${questionDocs.length} SINCERE-ANXIETY questions successfully.`);
+    console.log(`✅ Seeded ${questionDocs.length} ANXIETE_FUTURE questions successfully.`);
   } catch (error) {
-    console.error('❌ Error seeding SINCERE-ANXIETY questions:', error);
+    console.error('❌ Error seeding ANXIETE_FUTURE questions:', error);
   }
 };
 
-export default seedSINCEREANXIETY;
+export default seedAnxieteFuture;

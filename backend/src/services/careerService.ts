@@ -15,7 +15,7 @@ const careerService= (user: {[key: string]: number}) =>{
         .sort((a, b) => b[1] - a[1])  // Sort descending by value
         .slice(0, 3)                   // Take top 3
         .map(([key, value]) => riasecNames[key]); // Replace with full name
-      
+        
       return top3 as string[];
 }
 
